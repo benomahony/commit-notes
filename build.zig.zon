@@ -1,0 +1,13 @@
+.{
+    .name = .commit_notes,
+    .version = "0.0.0",
+    .fingerprint = 0x83625741cbd563c5,
+    .minimum_zig_version = "0.17.0-dev.2338+b46a7f3a2",
+    .dependencies = .{
+        .zclig = .{
+            .url = "git+https://github.com/benomahony/zclig?ref=v0.1.1#642861d00107a8028bf7cc3f3a378dda5056df48",
+            .hash = "zclig-0.1.0-Ee1yIecYAgB2vfclq5Lmy94KPW4eRdfNhTcENfM5Rkjt",
+        },
+    },
+    .paths = .{ "build.zig", "build.zig.zon", "src", "README.md", "LICENSE" },
+}
